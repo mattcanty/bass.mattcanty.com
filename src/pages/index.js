@@ -194,12 +194,12 @@ class HomeIndex extends React.Component {
                       ></textarea>
                     </div>
                   </div>
+                  <ul className="actions">
+                    <li>
+                      <input type="submit" value="Send Message" />
+                    </li>
+                  </ul>
                 </form>
-                <ul className="actions">
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
               </div>
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
