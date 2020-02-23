@@ -194,6 +194,7 @@ class HomeIndex extends React.Component {
                       ></textarea>
                     </div>
                   </div>
+                  <br />
                   <ul className="actions">
                     <li>
                       <input type="submit" value="Send Message" />
