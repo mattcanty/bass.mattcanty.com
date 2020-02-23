@@ -18,12 +18,7 @@ repos:
     rev: v0.8.0
     hooks:
       - id: markdownlint
-  - repo: https://github.com/pre-commit/mirrors-fixmyjs
-    rev: v2.0.0
+  - repo: https://github.com/prettier/prettier
+    rev: 1.19.1
     hooks:
-      - id: fixmyjs
-        args: ["-l", "-c", ".jshintrc"]
-  # - repo: https://github.com/pre-commit/mirrors-jshint
-  #   rev: v2.11.0
-  #   hooks:
-  #     - id: jshint
+      - id: prettier

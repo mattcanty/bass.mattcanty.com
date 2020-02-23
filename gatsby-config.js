@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Matt Canty",
-    author: "Matt Canty",
-    description: "Matt Canty is a musician from London, UK."
+    title: 'Matt Canty',
+    author: 'Matt Canty',
+    description: 'Matt Canty is a musician from London, UK.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
   ],
 }
