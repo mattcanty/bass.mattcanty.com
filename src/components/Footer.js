@@ -6,20 +6,25 @@ class Footer extends React.Component {
       <div id="footer">
         <div className="inner">
           <ul className="icons">
-            <li>
+            {/* <li>
               <a
                 href="mailto:matthewcanty@gmail.com"
                 className="icon fa-envelope-o"
               >
                 <span className="label">Email</span>
               </a>
-            </li>
+            </li> */}
           </ul>
           <ul className="copyright">
-            <li>&copy; Matt Canty</li>
             <li>
-              Design: <a href="http://html5up.net">HTML5 UP</a>
+              <a href="https://github.com/mattcanty/mattcanty.com">
+                Edit on Github
+              </a>
             </li>
+            <li>
+              Design: <a href="http://html5up.net">HTML5 UP</a>.
+            </li>
+            <li></li>
           </ul>
         </div>
       </div>
