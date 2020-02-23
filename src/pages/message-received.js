@@ -22,6 +22,13 @@ class MessageReceivedPage extends React.Component {
             <p>
               Thanks for your message, I'll be back in touch as soon as I can.
             </p>
+            <ul className="actions">
+              <li>
+                <a href="/" className="button">
+                  Back
+                </a>
+              </li>
+            </ul>
           </section>
         </div>
       </Layout>
