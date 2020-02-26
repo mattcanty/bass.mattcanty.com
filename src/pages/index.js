@@ -173,6 +173,7 @@ class HomeIndex extends React.Component {
                   method="POST"
                   data-netlify="true"
                   action="/message-received"
+                  enctype="application/x-www-form-urlencoded"
                 >
                   <div className="row uniform 100%">
                     <div className="12u 12u$(xsmall)">
