@@ -175,6 +175,7 @@ class HomeIndex extends React.Component {
                   action="/message-received"
                   enctype="application/x-www-form-urlencoded"
                 >
+                  <input type="hidden" name="form-name" value="contact" />
                   <div className="row uniform 100%">
                     <div className="12u 12u$(xsmall)">
                       <input
