@@ -52,8 +52,10 @@ class HomeIndex extends React.Component {
         </section>
 
         <section id="two">
-          <h2>Show Reel</h2>
-
+          <header className="major">
+            <h2>Show Reel</h2>
+          </header>
+          <p>Here are a selection of tracks featuring me on bass.</p>
           <iframe
             src="https://open.spotify.com/embed/playlist/1XIx3SyTsEBH0Ur4MmiMMZ"
             width="100%"
