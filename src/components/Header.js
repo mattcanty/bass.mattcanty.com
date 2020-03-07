@@ -13,12 +13,21 @@ class Header extends React.Component {
           </a>
           <h1>
             <strong>
-              I am Matt Canty, a musician <br />
-              from London (UK)
+              Matt Canty, a musician from <br />
+              London (UK)
             </strong>
           </h1>
+          <p>
+            A bassist and guitarist with <br />
+            over 15 years' experience <br />
+            gigging, touring &amp; recording.
+          </p>
+          <p>
+            Familiar with the classic styles <br />
+            of blues, rock, pop and folk.
+          </p>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </header>
     )
   }

@@ -1,9 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
+// import Lightbox from 'react-images'
+import Gallery from '../components/Gallery'
+import Credits from '../data/Credits'
 
-class MessageReceivedPage extends React.Component {
+class HomeIndex extends React.Component {
   render() {
     const siteTitle = 'Matt Canty'
     const siteDescription =
@@ -17,21 +20,20 @@ class MessageReceivedPage extends React.Component {
         </Helmet>
 
         <section id="one">
-          <h2>Message Received</h2>
-          <p>
-            Thanks for your message, I'll be back in touch as soon as I can.
-          </p>
           <ul className="actions">
             <li>
               <a href="/" className="button">
-                Back
+                Back to Homepage
               </a>
             </li>
           </ul>
+          <h2>Credits</h2>
+
+          <Gallery images={Credits} />
         </section>
       </Layout>
     )
   }
 }
 
-export default MessageReceivedPage
+export default HomeIndex

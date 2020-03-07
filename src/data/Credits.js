@@ -1,0 +1,60 @@
+import full01 from '../assets/images/fulls/time-elastic-cover.jpg'
+import full02 from '../assets/images/fulls/pendulum-swing-cover.jpg'
+import full03 from '../assets/images/fulls/dear-joy-cover.jpg'
+import full04 from '../assets/images/fulls/on-the-hop-cover.jpg'
+import full05 from '../assets/images/fulls/am-i-normal-yet-cover.jpg'
+import full06 from '../assets/images/fulls/in-the-echoshop-cover.jpg'
+import full07 from '../assets/images/fulls/beautiful-again-cover.jpg'
+
+export default [
+  {
+    source: full01,
+    caption: 'Time Elastic - Laish',
+    description: '2017 / Bass',
+    linkTitle: 'Buy',
+    linkTo: 'http://shop.talitres.com/products/609695-time-elastic',
+  },
+  {
+    source: full02,
+    caption: 'Pendulum Swing - Laish',
+    description: '2016 / Bass',
+    linkTitle: 'Buy',
+    linkTo: 'http://shop.talitres.com/products/576740-pendulum-swing',
+  },
+  {
+    source: full03,
+    caption: 'Dear Joy - Dear Joy',
+    description: '2013 / Bass',
+    linkTitle: '?',
+    linkTo: '#',
+  },
+  {
+    source: full04,
+    caption: 'On The Hop - Hows My Pop',
+    description: '2010 / Bass',
+    linkTitle: 'Listen on Spotify',
+    linkTo: 'https://play.spotify.com/album/6BPfT1lTqithcXRByBXWEm',
+  },
+  {
+    source: full05,
+    caption: 'Am I Normal Yet?? - Hows My Pop',
+    description: '2008 / Bass',
+    linkTitle: 'Listen on Spotify',
+    linkTo: 'https://play.spotify.com/album/2Br7HOnVgonCf4uAQV5zNx',
+  },
+  {
+    source: full06,
+    caption: 'In The Echoshop - Hows My Pop',
+    description: '200? / Bass',
+    linkTitle: 'Listen on Spotify',
+    linkTo: 'https://play.spotify.com/album/0vDkRqAWRV21ZtWXPoD4QF',
+  },
+  {
+    source: full07,
+    caption: 'Beautiful Again - HowdenJones',
+    description: '2004 / Bass Track 14',
+    linkTitle: 'Download for Free',
+    linkTo:
+      'https://www.musicglue.com/howdenjones/products/beautiful-again-2004-mp3-download',
+  },
+]

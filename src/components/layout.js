@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/scss/main.scss'
 
 import Header from './Header'
+import Footer from './Footer'
 
 class Template extends React.Component {
   render() {
@@ -10,7 +11,10 @@ class Template extends React.Component {
     return (
       <div>
         <Header />
-        {children}
+        <div id="main">
+          {children}
+          <Footer />
+        </div>
       </div>
     )
   }
