@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
 
 class Header extends React.Component {
@@ -27,7 +26,6 @@ class Header extends React.Component {
             of blues, rock, pop and folk.
           </p>
         </div>
-        {/* <Footer /> */}
       </header>
     )
   }
