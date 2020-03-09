@@ -56,6 +56,7 @@ class HomeIndex extends React.Component {
           </header>
           <p>Here are a selection of tracks featuring me on bass.</p>
           <iframe
+            title="Spotify Show Reel Playlist"
             src="https://open.spotify.com/embed/playlist/1XIx3SyTsEBH0Ur4MmiMMZ"
             width="100%"
             height="380"
