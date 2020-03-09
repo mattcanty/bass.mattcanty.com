@@ -67,7 +67,8 @@ input[type='radio'] {
 /* Header */
 
 #header {
-  background-image: url('../../images/bg.jpg');
+  filter: brightness(50%);
+  background-image: url('../../images/bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
   -ms-behavior: url('assets/js/ie/backgroundsize.min.htc');

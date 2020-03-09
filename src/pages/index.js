@@ -56,6 +56,7 @@ class HomeIndex extends React.Component {
           </header>
           <p>Here are a selection of tracks featuring me on bass.</p>
           <iframe
+            title="Spotify Show Reel Playlist"
             src="https://open.spotify.com/embed/playlist/1XIx3SyTsEBH0Ur4MmiMMZ"
             width="100%"
             height="380"
@@ -91,20 +92,26 @@ class HomeIndex extends React.Component {
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="row uniform 100%">
                   <div className="12u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
+                    <label>
+                      Email
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email"
+                      />
+                    </label>
                   </div>
                   <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
+                    <label>
+                      Message
+                      <textarea
+                        name="message"
+                        id="message"
+                        placeholder="Message"
+                        rows="4"
+                      ></textarea>
+                    </label>
                   </div>
                 </div>
                 <br />

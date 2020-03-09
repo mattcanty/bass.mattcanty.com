@@ -1,10 +1,10 @@
-import full01 from '../assets/images/fulls/time-elastic-cover.jpg'
-import full02 from '../assets/images/fulls/pendulum-swing-cover.jpg'
-import full03 from '../assets/images/fulls/dear-joy-cover.jpg'
-import full04 from '../assets/images/fulls/on-the-hop-cover.jpg'
-import full05 from '../assets/images/fulls/am-i-normal-yet-cover.jpg'
-import full06 from '../assets/images/fulls/in-the-echoshop-cover.jpg'
-import full07 from '../assets/images/fulls/beautiful-again-cover.jpg'
+import full01 from '../assets/images/fulls/time-elastic-cover.webp'
+import full02 from '../assets/images/fulls/pendulum-swing-cover.webp'
+import full03 from '../assets/images/fulls/dear-joy-cover.webp'
+import full04 from '../assets/images/fulls/on-the-hop-cover.webp'
+import full05 from '../assets/images/fulls/am-i-normal-yet-cover.webp'
+import full06 from '../assets/images/fulls/in-the-echoshop-cover.webp'
+import full07 from '../assets/images/fulls/beautiful-again-cover.webp'
 
 export default [
   {
