@@ -67,6 +67,7 @@ input[type='radio'] {
 /* Header */
 
 #header {
+  filter: brightness(50%);
   background-image: url('../../images/bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
