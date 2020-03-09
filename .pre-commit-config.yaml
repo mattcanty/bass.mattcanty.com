@@ -12,6 +12,7 @@ repos:
       - id: check-case-conflict
       - id: check-merge-conflict
       - id: check-added-large-files
+        args: ['--maxkb=700']
       - id: detect-private-key
       - id: forbid-new-submodules
   - repo: https://github.com/markdownlint/markdownlint
