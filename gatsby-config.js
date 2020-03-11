@@ -5,6 +5,8 @@ module.exports = {
     description: 'Matt Canty is a musician from London, UK.',
   },
   plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
