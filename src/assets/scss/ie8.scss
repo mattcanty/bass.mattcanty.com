@@ -70,7 +70,7 @@ input[type='radio'] {
   filter: brightness(50%);
   background-image: url('../../images/bg.webp');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto, auto;
   -ms-behavior: url('assets/js/ie/backgroundsize.min.htc');
 
   h1 {
