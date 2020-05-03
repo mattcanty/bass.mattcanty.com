@@ -69,3 +69,17 @@ Gallery.propTypes = {
 }
 
 export default Gallery
+
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "blog/avatars/time-elastic-cover.webp" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+  }
+`
