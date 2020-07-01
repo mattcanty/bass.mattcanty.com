@@ -22,19 +22,7 @@ class HomeIndex extends React.Component {
           <meta name="description" content={siteDescription} />
         </Helmet>
 
-        <section id="one">
-          <GigList title="Upcoming Gigs" gigs={Gigs.filter(isFutureGig)} />
-
-          <ul className="actions">
-            <li>
-              <a href="gigs" className="button">
-                All gigs
-              </a>
-            </li>
-          </ul>
-        </section>
-
-        <section id="two">
+        <section id="showreel">
           <header className="major">
             <h2>Show Reel</h2>
           </header>
@@ -61,7 +49,19 @@ class HomeIndex extends React.Component {
           </ul>
         </section>
 
-        <section id="three">
+        <section id="gigs">
+          <GigList title="Upcoming Gigs" gigs={Gigs.filter(isFutureGig)} />
+
+          <ul className="actions">
+            <li>
+              <a href="gigs" className="button">
+                All gigs
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="contact">
           <h2>Get In Touch</h2>
           <p>Feel free to email me or use this handy form.</p>
           <div className="row">
