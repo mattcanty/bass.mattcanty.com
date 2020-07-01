@@ -14,7 +14,7 @@ class Gallery extends Component {
     this.toggleLightbox = this.toggleLightbox.bind(this)
   }
   toggleLightbox(selectedIndex) {
-    this.setState(state => ({
+    this.setState((state) => ({
       lightboxIsOpen: !state.lightboxIsOpen,
       selectedIndex,
     }))

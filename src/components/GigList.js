@@ -10,7 +10,7 @@ class GigList extends Component {
       return 'No upcoming gigs.'
     }
 
-    const gigList = gigs.map(obj => {
+    const gigList = gigs.map((obj) => {
       return (
         <tr>
           <td>{obj.when.toLocaleDateString()}</td>

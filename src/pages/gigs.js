@@ -5,11 +5,11 @@ import Layout from '../components/Layout'
 import GigList from '../components/GigList'
 import Gigs from '../data/Gigs'
 
-const isFutureGig = gig => {
+const isFutureGig = (gig) => {
   return gig.when.toDateString() >= new Date().toDateString()
 }
 
-const isPastNotableGig = gig => {
+const isPastNotableGig = (gig) => {
   return gig.when.toDateString() < new Date().toDateString() && gig.notable
 }
 
