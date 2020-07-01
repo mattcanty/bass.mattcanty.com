@@ -11,15 +11,6 @@ const whereLinks = {
 
 export default [
   {
-    notable: false,
-    when: new Date('2020-06-26'),
-    who: 'DG Solaris',
-    whoLink: whoLinks.dgSolaris,
-    where: 'Paperdress Vintage',
-    whereLink: whereLinks.paperdressVintage,
-    gigLink: 'https://google.com',
-  },
-  {
     notable: true,
     when: new Date('2007-06-22'),
     who: 'Hows My Pop?',

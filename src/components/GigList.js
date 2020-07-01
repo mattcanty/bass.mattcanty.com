@@ -7,9 +7,17 @@ class GigList extends Component {
   }
   renderGigList(title, gigs) {
     if (gigs.length === 0) {
-      return 'No upcoming gigs.'
+      return (
+        <div className="row">
+          <header className="major">
+            <h2>{title}</h2>
+          </header>
+          <table>
+            <tbody>No upcoming gigs.</tbody>
+          </table>
+        </div>
+      )
     }
-
     const gigList = gigs.map((obj) => {
       return (
         <tr>
