@@ -6,7 +6,10 @@ import GigList from '../components/GigList'
 import Gigs from '../data/Gigs'
 
 const isFutureGig = (gig) => {
-  return gig.when.toDateString() >= new Date().toDateString()
+  var today = new Date()
+  today.setHours(0, 0, 0, 0)
+
+  return gig.when >= today
 }
 
 class HomeIndex extends React.Component {
