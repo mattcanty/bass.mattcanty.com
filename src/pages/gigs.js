@@ -2,6 +2,16 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/Layout'
+import GigList from '../components/GigList'
+import Gigs from '../data/Gigs'
+
+const isFutureGig = gig => {
+  return gig.when.toDateString() >= new Date().toDateString()
+}
+
+const isPastNotableGig = gig => {
+  return gig.when.toDateString() < new Date().toDateString() && gig.notable
+}
 
 class HomeIndex extends React.Component {
   render() {
@@ -24,55 +34,11 @@ class HomeIndex extends React.Component {
               </a>
             </li>
           </ul>
-          <header className="major">
-            <h2>Upcoming Gigs</h2>
-          </header>
-          <table>
-            <tbody>
-              <tr>
-                <td>When</td>
-                <td>Who</td>
-                <td>Where</td>
-                <td>Tickets</td>
-              </tr>
-              <tr>
-                <td>
-                  26<sup>th</sup> May
-                </td>
-                <td>DG Solaris</td>
-                <td>Paperdress Vintage</td>
-                <td>
-                  <a href="">TBA</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-
-        <section id="two">
-          <header className="major">
-            <h2>Past Gigs</h2>
-          </header>
-          <table>
-            <tbody>
-              <tr>
-                <td>When</td>
-                <td>Who</td>
-                <td>Where</td>
-                <td>Tickets</td>
-              </tr>
-              <tr>
-                <td>
-                  26<sup>th</sup> May
-                </td>
-                <td>DG Solaris</td>
-                <td>Paperdress Vintage</td>
-                <td>
-                  <a href="">TBA</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <GigList title="Upcoming Gigs" gigs={Gigs.filter(isFutureGig)} />
+          <GigList
+            title="Past Notable Gigs"
+            gigs={Gigs.filter(isPastNotableGig)}
+          />
         </section>
       </Layout>
     )
