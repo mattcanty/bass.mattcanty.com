@@ -23,20 +23,20 @@ class GigList extends Component {
         <tr>
           <td>{obj.when.toLocaleDateString()}</td>
           <td>
-            <a target="_blank" href={obj.whoLink}>
-              {obj.who}
-            </a>
+            {/* <a target="_blank" href={obj.whoLink}> */}
+            {obj.who}
+            {/* </a> */}
           </td>
           <td>
-            <a target="_blank" href={obj.whereLink}>
-              {obj.where}
-            </a>
+            {/* <a target="_blank" href={obj.whereLink}> */}
+            {obj.where}
+            {/* </a> */}
           </td>
-          <td>
+          {/* <td>
             <a target="_blank" href={obj.gigLink}>
               See more
             </a>
-          </td>
+          </td> */}
         </tr>
       )
     })
