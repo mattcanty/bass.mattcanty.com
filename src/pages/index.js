@@ -29,15 +29,6 @@ class HomeIndex extends React.Component {
           <header className="major">
             <h2>Show Reel</h2>
           </header>
-          <p>A video of me playing with Laish. Full credits on YouTube.</p>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/AT1zihJZTAw"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
           <p>Here are a selection of tracks featuring me on bass.</p>
           <iframe
             title="Spotify Show Reel Playlist"
