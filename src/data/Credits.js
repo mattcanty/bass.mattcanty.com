@@ -1,3 +1,4 @@
+import full00 from '../assets/images/fulls/spirit-glow-cover.webp'
 import full01 from '../assets/images/fulls/time-elastic-cover.webp'
 import full02 from '../assets/images/fulls/pendulum-swing-cover.webp'
 import full03 from '../assets/images/fulls/dear-joy-cover.webp'
@@ -9,23 +10,30 @@ import full07 from '../assets/images/fulls/beautiful-again-cover.webp'
 export default [
   {
     source: full01,
+    caption: 'Spirit Glow - DG Solaris',
+    description: '2020 / Bass',
+    linkTitle: 'Buy',
+    linkTo: 'https://dgsolaris.bandcamp.com/album/spirit-glow',
+  },
+  {
+    source: full01,
     caption: 'Time Elastic - Laish',
     description: '2017 / Bass',
     linkTitle: 'Buy',
-    linkTo: 'http://shop.talitres.com/products/609695-time-elastic',
+    linkTo: 'https://shop.talitres.com/products/609695-time-elastic',
   },
   {
     source: full02,
     caption: 'Pendulum Swing - Laish',
     description: '2016 / Bass',
     linkTitle: 'Buy',
-    linkTo: 'http://shop.talitres.com/products/576740-pendulum-swing',
+    linkTo: 'https://shop.talitres.com/products/576740-pendulum-swing',
   },
   {
     source: full03,
     caption: 'Dear Joy - Dear Joy',
     description: '2013 / Bass',
-    linkTitle: '?',
+    linkTitle: 'Not Available',
     linkTo: '#',
   },
   {

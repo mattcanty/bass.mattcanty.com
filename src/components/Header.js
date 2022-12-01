@@ -18,7 +18,7 @@ class Header extends React.Component {
           </h1>
           <p>
             A bassist and guitarist with <br />
-            over 15 years' experience <br />
+            over 20 years' experience <br />
             gigging, touring &amp; recording.
           </p>
           <p>
